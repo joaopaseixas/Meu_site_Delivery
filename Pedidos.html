@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Jim+Nightshade&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="Pedidos.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ao Pronto</title>
+    </head>
+    <body>
+        <header> 
+            <div id="AoPronto"><a href="Index.html">Ao Pronto</a></div>
+            <div id="Cadastro">
+                <small>Ja tem cadastro?
+                se não,clique aqui!</small></br><a href="Cadastro.html">Cadastro</a></div>
+            <nav>
+                <ul>
+                    <li class="DropDown">
+                        <a href="" id="HiHiHi">Pesquise aqui!</a>
+
+                        <div class="DropDown-menu">
+                            <a href="Index.html">Pagina Inicial</a>
+                            <a href="QuemSomos.html">Quem somos</a>
+                            <a href="Busca.html">Busca</a>
+                            <a href="Contato.html">Contato</a>
+                            <a href="Cadastro.html">Cadastro</a>
+                            <a href="Pedidos.html">Pedidos</a>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section class="order-summary">
+                <h2>Resumo do Pedido</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>ID do Pedido</th>
+                            <th>Data do Pedido</th>
+                            <th>Status do Pedido</th>
+                            <th>Status do Pagamento</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>001</td>
+                            <td>05/08/2024</td>
+                            <td class="status-accepted">Aceito</td>
+                            <td class="status-paid">Pago</td>
+                        </tr>
+                        <tr>
+                            <td>002</td>
+                            <td>04/08/2024</td>
+                            <td class="status-pending">Pendente</td>
+                            <td class="status-unpaid">Não Pago</td>
+                        </tr>
+                        <tr>
+                            <td>003</td>
+                            <td>03/08/2024</td>
+                            <td class="status-canceled">Cancelado</td>
+                            <td class="status-unpaid">Não Pago</td>
+                        </tr>
+                        <!-- Adicione mais pedidos aqui -->
+                    </tbody>
+                </table>
+            </section>
+        </main>
+        
+        <footer>
+            <p>&copy; 2024 Site Ao Pronto. Todos os direitos reservados.</p>
+        </footer>
+    </body>
+</html>
